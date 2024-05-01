@@ -6,12 +6,11 @@ import { colors } from "../styled/config";
 const Section = styled.section`
     display: flex;
     justify-content: center;
-    /* align-items: start; */
     width: 100%;
     box-sizing: border-box;
     min-height: calc(100vh - 90px);
     padding: 2em;
-    background-color: ${(props) => props.color || colors.SectionBg1};
+    background-color: ${(props) => props.color || colors.White};
     overflow: hidden;
 `;
 
