@@ -15,7 +15,7 @@ const ContainerPropiedad = styled.div`
     transition: 0.4s;
 
     &:hover{
-        box-shadow: 0 0 40px ${colors.Color1};
+        box-shadow: 0 1rem 2rem 0 ${colors.Color1};
     }
 `
 
@@ -34,8 +34,8 @@ const ContainerInfo = styled.div`
 `
 
 const TitlePropiedad = styled.h5`
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 500;
     `
 const Location = styled.h6`
     font-size: 1rem;
@@ -45,7 +45,8 @@ const Location = styled.h6`
 const ContainerPrice = styled.div`
     background-color:${colors.fontArticules};
     color: ${colors.White};
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -63,6 +64,8 @@ const ContainerIcon = styled.div`
 `
 
 const TextInfo = styled.p`
+    font-weight: 300;
+    font-size:1rem ;
     margin-left: .3rem;
 `
 

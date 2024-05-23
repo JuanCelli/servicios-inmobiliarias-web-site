@@ -3,25 +3,3 @@
   background-color: black;
 }
 
-
-@media (max-width: 2000px) {
-.slick-list{
-  width: 70rem;
-}
-}
-@media (max-width: 1100px) {
-.slick-list{
-  width: 50rem;
-}
-}
-@media (max-width: 720px) {
-.slick-list{
-  width: 28rem;
-}
-}
-@media (max-width: 500px) {
-.slick-list{
-  width: 23rem;
-}
-}
-
